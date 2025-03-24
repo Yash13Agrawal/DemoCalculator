@@ -1,10 +1,7 @@
-class Addition:
-    def add(self, a, b):
+def add(a, b):
+    if type(a) == int and type(b)==int:
         return a+b
+    if type(a) == str and type(b) == str:
+        return str+str
     
-    def add(self, *args):
-        s=0
-        for i in args:
-            s+=i
-        return s
 
